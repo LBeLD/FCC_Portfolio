@@ -24,12 +24,12 @@ $(document).ready(function() {
   });
 
   //change color of text and bar on mouseover, portfolio section
-  $('.thumbnail').mouseover(function() {
+  $('.portfolioImg').mouseover(function() {
     $(this).toggleClass('color');
     $(this).find('h4').toggleClass('color');
     $(this).find('img').css('border', '5px solid #0998CC');
   });
-  $('.thumbnail').mouseout(function() {
+  $('.portfolioImg').mouseout(function() {
     $(this).removeClass('color');
     $(this).find('h4').removeClass('color');
     $(this).find('img').css('border', 'none');
