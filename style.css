@@ -173,7 +173,8 @@ select:-moz-focusring {
 
 .fa-free-code-camp:hover, .fa-github:hover,
 .fa-codepen:hover, .fa-linkedin-square:hover,
-.fa-instagram:hover{
+.fa-instagram:hover,
+.fa-envelope-o:hover{
   color:#BDBDBD;
 }
 
@@ -332,6 +333,17 @@ input, textarea{
 #send{
   background-color: #BDBDBD;
   border: none;
+  margin-bottom: 10px;
+}
+
+#errorMessage, #sentMessage{
+  display: none;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+#star{
+  color:#e85a5a;
 }
 
 footer{
@@ -378,6 +390,10 @@ footer{
 @media (max-width: 1000px) {
   .aboutText {
     padding-top: 40px;
+  }
+
+  .aboutImg{
+    margin-top: 20px;
   }
 
 }
